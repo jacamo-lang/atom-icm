@@ -1,0 +1,14 @@
+{
+  "name": "language-jcm",
+  "version": "0.1.0",
+  "description": "JaCaMo Project Language",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/jacamo-lang/atom-jcm",
+  "license": "GNU LGPL",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
