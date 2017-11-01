@@ -2,9 +2,7 @@
 
 'scopeName': 'source.jcm'
 'name': 'JaCaMo Project File'
-'fileTypes': [
-  'jcm'
-]
+'fileTypes': [ 'jcm' ]
 'patterns': [
   {
     'include': '#comments'
@@ -39,7 +37,7 @@
   'constants':
     'patterns': [
       {
-        'match': '\\btrue\\b'
+        'match': '\\b(true|false)\\b'
         'name': 'constants.language.jcm'
       }
     ]
@@ -50,7 +48,7 @@
         'name': 'keyword.control.jcm'
       }
       {
-        'match': '\\b(instances|ag-arch|ag-class|ag-bb-class|goals|beliefs|focus|focuse-by|agents|join|roles|in|class-path|asl-path|debug|responsible-for|verbose|players)\\b'
+        'match': '\\b(instances|ag-arch|ag-class|ag-bb-class|goals|beliefs|focus|focuse-by|agents|join|roles|in|class-path|asl-path|org-path|java-path|debug|responsible-for|verbose|players)\\b'
         'name': 'keyword.operator.jcm'
       }
     ]
